@@ -1,0 +1,108 @@
+---
+title: Deep Bio
+---
+<div class="content">
+  <section class="hello-deepbio about">
+    <div class=container>
+      <div class="text-container">
+        <div class="page-title">Hello,</br>We're Deepbio.</div>
+      </div>
+    </div>
+  </section>
+  <section class="deepbio-inc">
+    <div class="container">
+      <div class="text-container">
+        <div class="title">Deep Bio Inc.</div>
+        <div class="image-container">
+          <img src="{{site.baseurl}}/images/deepbioinc.jpg">
+        </div>
+        <p>
+          Deep Bio Inc,is dedicated to improving the reliability and decreasing the thurnaround
+          time of medical diagnosis.</br> We are currently collaborating with medical professionals in integrating
+          artificial intelligence(AI) into exsisting clinical workflows </br>to help them make better-informed decisions
+          that will lead to the best outcome for patients.</br>
+          We aim to improve and optimize diagnostic processes, and make quality healthcare more accessible for patients across the globe.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="team-deepbio">
+    <div class="contianer">
+      <div class="text-container">
+          <div class="title">Team Deepbio</div>
+      </div>
+      <ul class="team">
+        {% include profile.html members=site.data.executive %}
+        {% include profile.html members=site.data.researchers %}
+        {% include profile.html members=site.data.staff %}
+        {% include profile.html members=site.interns %}
+      </div>
+    </ul>
+  </section>
+  <section class="slider-deepbio" id="news-about">
+    <div class="conainer">
+      <div class="deepbio-slide-wrapper">
+        <div class="slide-show">
+        <img src="{{ base.url}}/images/slide-01.jpg" alt="slide-1"/>
+        <img src="{{ base.url}}/images/slide-02.jpg" alt="slide-2"/>
+        <img src="{{ base.url}}/images/slide-03.jpg" alt="slide-3"/>
+        <img src="{{ base.url}}/images/slide-04.jpg" alt="slide-4"/>
+        <img src="{{ base.url}}/images/slide-05.jpg" alt="slide-5"/>
+        <img src="{{ base.url}}/images/slide-06.jpg" alt="slide-6"/>
+        <img src="{{ base.url}}/images/slide-01.jpg" alt="slide-1"/>
+        <img src="{{ base.url}}/images/slide-02.jpg" alt="slide-2"/>
+        <img src="{{ base.url}}/images/slide-03.jpg" alt="slide-3"/>
+        <img src="{{ base.url}}/images/slide-04.jpg" alt="slide-4"/>
+        <img src="{{ base.url}}/images/slide-05.jpg" alt="slide-5"/>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="news">
+    <div class="container flex">
+        <div class="text-container">
+          <p>
+            <span class="tag-news">News</span>
+            {% assign pages = site.data.news.size | divided_by: 3.0 | ceil %}
+            <span class="news-more--link">
+
+              {% for i in (1..pages) %}
+              {% if i == 1 %}
+                <a class="page-link active" id="page-link-{{i}}">{{i}}</a>
+              {% else %}
+                <a class="page-link" id="page-link-{{i}}">{{i}}</a>
+              {% endif %}
+              {% endfor %}
+              </span>
+          </p>
+        </div>
+        {% assign page = 0 %}
+        {% assign cnt = 0 %}
+        {% for article in site.data.news %}
+         {% assign cnt = cnt | plus: 1%}
+         {% assign current_page = cnt | divided_by: 3.0 | ceil %}
+          {% if current_page > page %}
+           {% if current_page == 1 %}
+              <div class="articles text-container show" id="article-page-link-{{current_page}}">
+           {% else %}
+              </div>
+              <div class="articles text-container" id="article-page-link-{{current_page}}">
+            {% endif %}
+           {% assign page= page | plus: 1 %}
+          {% endif %}
+            <div class="article">
+              <div class="article-img">
+                <img src="{{article.img}}" alt="news-image"/>
+              </div>
+              <div class= text-container>
+                <p class="article-title">{{article.title }}</p>
+                <div class="article-subtext date">{{ article.date }}</div>
+                <div class="article-subtext">{{ article.press }}</div>
+              </div>
+            </div>
+        {% endfor %}
+
+        </div>
+  </section>
+  {% include partners.html %}
+</div>
