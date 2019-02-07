@@ -1,0 +1,14 @@
+.hello-deepbio {
+  @extend %pagetitle;
+  margin-bottom: 100px;
+  &.about,
+  &.meet-up {
+    @media #{$mobile} {
+      padding: 60px 0 110px 0;
+    }
+  }
+
+  .text-container {
+    color: #ffffff;
+  }
+}

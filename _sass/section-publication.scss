@@ -1,0 +1,84 @@
+.publications {
+  .publication-title.text-container {
+    margin-bottom: 100px;
+  }
+  .title {
+    @extend %menutitle;
+  }
+  .publication-more--link {
+    float: right;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: $light;
+    a.active {
+      font-weight: bold;
+    }
+  }
+  .publications-page {
+    display: none;
+    &.show {
+      display: inherit;
+    }
+  }
+  .publication {
+    .abstract {
+      width: 100%;
+      border: 1px solid $black-color;
+      .text-container {
+        @extend %pageserif;
+        font-style: italic;
+        padding: 20px 177.5px 10px 177.5px;
+        @media #{$mobile} {
+          padding: 20px 10px;
+        }
+        @media #{$wwd-width} {
+          padding: 20px 20% 10px 20%;
+        }
+        p {
+          margin-top: 3px;
+        }
+      }
+    }
+    .publication-type {
+      font-weight: $medium;
+      font-size: 13px;
+      margin-bottom: 5px;
+      color: $brand-color;
+      margin-top: 50px;
+    }
+    .publication-container {
+      display: flex;
+      margin-bottom: 100px;
+      @media #{$mobile} {
+        display: inherit;
+      }
+      .column {
+        @extend %flexbox;
+        @include flex-flow(wrap);
+      }
+      .publication-info {
+        .publication-title {
+          font-weight: $bold;
+          font-size: 24px;
+          line-height: 32px;
+        }
+        .publication-subtext {
+          font-style: italic;
+          font-family: $serif;
+          font-size: 13px;
+          font-weight: $regular;
+          &.date {
+            color: #999999;
+          }
+        }
+      }
+      .publication-authors {
+        font-size: 14px;
+        font-family: $serif;
+        font-style: italic;
+        line-height: 22px;
+        padding-left: 20px;
+      }
+    }
+  }
+}

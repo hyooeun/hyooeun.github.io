@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="footer-columns">
+      <div class="image-container">
+        <img src="{{ site.baseurl }}/images/footer-logo.png" alt="footer-logo">
+      </div>
+      <div class="text-container">
+        <h3 class="contact-title">Contact</h3>
+        <p class="adress"> 1201 HanWha BizMetro 242 Digital-ro,</br> Gurogu,Seoul,Korea</p>
+        <p class="copyright">All Rights Reserved &copy; Deep Bio Inc.2019</p>
+      </div>
+      <div class="text-container">
+        <p class="adress sales"> Sales@deepbio.co.kr</br>+(82)-70-7703-4746</p>
+      </div>
+      {% for column in site.data.footer %}
+      <ul class="footer-links text-container">
+        {% for link in column.links %}
+          <li class="footer-link"><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
+            {% if link.social_icon %}
+              {% include social-icon.html icon=link.social_icon %}
+            {% endif %}
+            {{ link.name }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    </div>
