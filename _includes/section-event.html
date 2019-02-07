@@ -1,0 +1,25 @@
+{% assign cnt= 1 %}
+{% for event in include.events['events'] %}
+  {% if event.main %}
+    {% assign class="event-pannel" %}
+    {% if cnt == 1 %}
+      <!-- {% assign class = class | append: " active" %} -->
+    {% endif %}
+    {% assign id = "event-item-" | append: cnt %}
+    <div class="{{ class }}" id="{{ id }}">
+      <div class="pannel-container">
+        <div class="text-container">
+          <p class="tag-event">Events</p>
+          <h2>{{ event.name }}</h2>
+          <p class="subtitle">{{ event.period }}</p>
+          <p class="subtext">{{ event.place }}</p>
+          <a class="meeting-link" href={{event.url}}> More Detail</a>
+        </div>
+        <div class="image-container">
+          <img src="{{event.img}}" alt="event Image"></img>
+        </div>
+      </div>
+    </div>
+    {% assign cnt = cnt | plus: 1 %}
+  {% endif %}
+{% endfor %}

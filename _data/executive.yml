@@ -1,0 +1,24 @@
+- name: Sunwoo Kim
+  position: CEO
+  img:
+  email:
+  bio: >
+    Sunwoo is the CEO at Deep Bio.
+- name: Byoungkoo Kang
+  position: CFO
+  img:
+  email:
+  bio: >
+    Byoungkoo is the CFO at Deep Bio.
+- name: Taeyoung Kwak
+  position: CTO
+  img:
+  email:
+  bio: >
+    Taeyoung is a Solution Architect interested in AI, Big Data & Concurrent systems.
+- name: Saebom Lee
+  position: Board Member
+  img:
+  email:
+  bio: >
+    Saebom is a board member at Deep Bio.

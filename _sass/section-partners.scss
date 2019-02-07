@@ -1,0 +1,15 @@
+.partners {
+  position: relative;
+  .image-container {
+    padding: 0;
+    @media #{$desktop} {
+      padding: 65px;
+    }
+  }
+  .text-container {
+    .title {
+      @extend %menutitle;
+      color: $black-color;
+    }
+  }
+}

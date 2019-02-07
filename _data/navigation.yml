@@ -1,0 +1,16 @@
+- name: About
+  link: /about/
+  new_window: false
+  highlight: false
+- name: What We Do
+  link: /wwd/
+  new_window: false
+  heighlight: false
+- name: Event
+  link: /event/
+  new_window: false
+  heighlight: false
+- name: Blog
+  link: /blog/
+  new_window: false
+  heighlight: false

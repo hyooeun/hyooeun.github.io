@@ -1,0 +1,81 @@
+---
+title: Deep Bio
+---
+<div class="content">
+  <section class="introduce">
+    <div class="container flex">
+      <div class="techs">
+        <div class="tech">
+          <div class="tech-image-1">
+            <img src="{{ site.baseurl}}/images/tech-1.png" alt="tech-1"/>
+          </div>
+          <div class="text-container">
+            <p class="title">Pathology</p>
+            <p class="description">Deep Bio is improving the consistency of analyses in pathology.</p>
+          </div>
+        </div>
+        <div class="tech">
+          <div class="tech-image-2">
+            <img src="{{ site.baseurl}}/images/tech-2.png" alt="tech-2"/>
+          </div>
+          <div class="text-container">
+            <p class="title">Medicine</p>
+            <p class="description">We are impacting the field of medicine by increasing diagnostic precision. </p>
+          </div>
+        </div>
+        <div class="tech">
+          <div class="tech-image-3">
+            <img src="{{ site.baseurl}}/images/tech-3.png" alt="tech-3">
+          </div>
+          <div class="text-container">
+              <p class="title"> Healthcare Equality</p>
+              <p class="description">We are aiming to bridge the gap in healthcare quality between developed & developing countries.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="slogan">
+    <div class="text-container">
+      <p class="editable"><string> Our Mission is to integrate AI and the human mind together</br> to deliver the best outcome for patients</string></p>
+    </div>
+  </section>
+  <section class="events">
+    <div class="container flex">
+      <div id="icon">
+      </div>
+      <div class="slide-wrapper">
+          {% include section-event.html events= site.categories %}
+      </div>
+    </div>
+  </section>
+  <section class="news">
+    <div class="container flex">
+      <div class="text-container">
+        <p>
+          <span class="tag-news">News</span>
+          <span class="news-more--link"><a href="{{site.baseurl}}/about/#news-about">More News &raquo;</a></span>
+        </p>
+      </div>
+        <div class="articles text-container show">
+          {% for article in site.data.news %}
+            {% if article.main %}
+              <div class="article">
+                <div class="article-img">
+                  <img src="{{article.img}}" alt="news-image"/>
+                </div>
+                <div class= text-container>
+                  <p class="article-title">{{ article.title }}</p>
+                  <div>
+                    <div class="article-subtext date">{{ article.date }}</div>
+                    <div class="article-subtext">{{ article.press }}</div>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% include partners.html %}
+</div>

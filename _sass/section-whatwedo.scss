@@ -1,0 +1,105 @@
+.whatwedo {
+  .whatwedo-title {
+    margin-bottom: 100px;
+    .title {
+      @extend %menutitle;
+    }
+  }
+  .whatwedo-container {
+    position: relative;
+    .image-container {
+      .content-box {
+        width: 57%;
+        position: relative;
+        @media #{$wwd-width} {
+          width: auto;
+          position: unset;
+          margin-bottom: 30px;
+        }
+        .image-desc-1 {
+          padding-top: 250px;
+          position: absolute;
+          @media #{$wwd-width} {
+            padding: 0;
+            position: unset;
+          }
+          .title {
+            font-weight: $regular;
+            color: $brand-color;
+            font-size: 16px;
+            margin-left: 50px;
+          }
+          .detail {
+            font-size: 13px;
+            line-height: 20px;
+            margin-left: 20px;
+          }
+        }
+        &.wwd-2 {
+          float: right;
+          padding-bottom: 20px;
+          img {
+            float: right;
+          }
+        }
+        .image-desc-2 {
+          position: absolute;
+          margin: 290px 0 0 220px;
+          @media #{$wwd-width} {
+            margin: 0;
+            position: unset;
+          }
+          .title {
+            font-weight: $regular;
+            color: $brand-color;
+            font-size: 16px;
+            margin-left: 50px;
+          }
+          .detail {
+            font-size: 13px;
+            line-height: 20px;
+            margin-left: 20px;
+          }
+        }
+        &.wwd-3 {
+          margin: 0 0 0 50px;
+          @media #{$wwd-width} {
+            margin: 0;
+          }
+        }
+        .image-desc-3 {
+          margin-left: 180px;
+          @media #{$wwd-width} {
+            margin: 0;
+            position: unset;
+          }
+          .title {
+            font-weight: $regular;
+            color: $brand-color;
+            font-size: 16px;
+            margin-left: 50px;
+          }
+          .detail {
+            font-size: 13px;
+            line-height: 20px;
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+
+    img {
+      height: auto;
+    }
+    #wwd-1 {
+      max-width: 450px;
+      float: right;
+    }
+    #wwd-2 {
+      max-width: 400px;
+    }
+    #wwd-3 {
+      max-width: 500px;
+    }
+  }
+}

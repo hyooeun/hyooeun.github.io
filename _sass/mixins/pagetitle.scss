@@ -1,0 +1,25 @@
+@mixin page-title {
+  background: black;
+  height: 70px;
+  padding: 100px 0 70px 0;
+  .page-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48px;
+  }
+}
+
+@mixin page-serif-body {
+  font-family: "Noto Serif";
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+%pagetitle {
+  @include page-title();
+}
+
+%pageserif {
+  @include page-serif-body();
+}

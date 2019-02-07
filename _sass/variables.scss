@@ -1,0 +1,24 @@
+$brand-color: #00d800;
+$secondary-brand-color: #000000;
+$black-color: #000000;
+$background-color: #f7f7f7;
+$middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
+$serif: "Noto Serif", serif;
+$sans-serif: "Montserrat", sans-serif;
+$sans-kr: "Noto Sans KR", sans-serif;
+// Breakpoints
+$tablet: "(min-width: 450px)";
+$mid-point: "(min-width: 620px)";
+$desktop: "(min-width: 768px)";
+$mobile: "(max-width: 414px)";
+$wwd-width: "(max-width: 715px)";
+$product-width: "(max-width: 470px)";
+$front-width: "(max-width: 768px)";
+$event-sec: "(max-width: 1200px)";
+
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+$extra-bold: 800;

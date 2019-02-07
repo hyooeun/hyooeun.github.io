@@ -1,0 +1,16 @@
+.slogan {
+  margin-bottom: 0;
+  padding: 70px;
+  background: black;
+  .text-container {
+    text-align: center;
+  }
+  .editable {
+    //same as tech font-style, size
+    color: white;
+    font-family: $serif;
+    font-weight: $regular;
+    line-height: 20px;
+    font-size: 13px;
+  }
+}

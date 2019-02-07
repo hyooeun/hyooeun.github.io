@@ -1,0 +1,14 @@
+{% for mem in include.members %}
+<li class="profile">
+  <div class="image-container text-container">
+    <img src="{{ site.baseurl}}/images/news/news-main.png" alt="profile-img"/>
+    <div class="text-container">
+      <div class="text-box">
+      <div class="name">{{mem.name}}</div>
+      <div class="position">{{mem.position}}</div>
+    </div>
+    </div>
+  </div>
+  <div class="bio">{{mem.bio}}</div>
+</li>
+{% endfor %}

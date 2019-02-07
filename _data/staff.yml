@@ -1,0 +1,32 @@
+- name: Jieun Woo
+  position: Administration</br> Assistant
+  image_path:
+  email:
+  meta: staff
+  bio: >
+    Jieun works in business support, taking care of the general business
+    affairs around the office. She provides assistance so that the team's
+    research can run smoothly.
+
+- name: JaeHyun Cho
+  position: Global Business Developer
+  image_path:
+  email:
+  meta: staff
+  bio: >
+    Jae Hyun has recently joined Deepbio and came from a wealth of experience
+    working in banking and finance for 5 years. She has completed her degree
+    in Commerce and Accounting at RMIT University in Melbourne, Australia.
+    Jae Hyun is an expert in risk management and she is in charge of global
+    business development to support and improve company’s growth.
+
+- name: Minah Cho
+  position: Regulatory Affairs
+  image_path:
+  email:
+  meta: staff
+  bio: >
+    Minah received her B.S. in animal biotechnology and M.S. in
+    bioinformatics from Konkuk University. She is in charge of regulatory
+    affairs and communication with governmental offices. She is interested in
+    biostatistics and clinical data management.
