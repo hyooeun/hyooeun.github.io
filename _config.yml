@@ -38,14 +38,10 @@ paginate: 3
 paginate_path: "/event/page:num/"
 permalink: pretty
 
-jekyll-archives:
-  enabled:
-    - categories
 
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-archives
   - jekyll-sitemap
   - jekyll-seo-tag
 
