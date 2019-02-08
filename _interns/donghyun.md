@@ -1,7 +1,7 @@
 ---
 name: Donghyun Kim
 position: Intern in Research Engineering
-image_path:
+image: /images/team/donghyun.jpg
 email:
 bio: >
   Donghyun majors Mathematical Sciences in KAIST. Being analytic by

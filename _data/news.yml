@@ -1,24 +1,30 @@
+- title: Deep Bio Inc. ranks 1st in the CAMELYON17 Grand Challenge from post submitting in early February 2019
+  date: 2019-02-06
+  img: /images/news/news_ca.jpg
+  link: https://camelyon17.grand-challenge.org/evaluation/results/
+  main: true
+
 - title: 딥바이오 AI 전립선암 진단기긱 공개..."연내 임상 시험 신청"
   date: 2018-03-02
-  img: /images/news/news-main.png
-  link:
+  img: /images/news/news_01.jpg
+  link: http://www.biospectator.com/view/news_view.php?varAtcId=6777
   main: true
   press: Biospectator
 - title: 인공지능 암진단 딥바이오 40억 후속투자 유치
   date: 2018-03-02
-  img: /images/news/news-main.png
-  link:
+  img: /images/news/news_02.jpg
+  link: https://www.thebell.co.kr/free/content/ArticleView.asp?key=201802280100056660003574&lcode=00
   main: true
   press: TheBell
-- title: 인공지능 암진단 딥바이오 40억 후속투자 유치
-  date: 2018-03-02
-  img: /images/news/news-main.png
-  link:
-  main: true
-  press: TheBell
-- title: 인공지능 암진단 딥바이오 40억 후속투자 유치
-  date: 2018-03-02
-  img: /images/news/news-main.png
-  link:
+- title: IT전문가의 도전 딥바이오(DeepBio) "AI로 전립선암 진단"
+  date: 2017-09-18
+  img: /images/news/news_03.jpg
+  link: http://www.biospectator.com/view/news_view.php?varAtcId=4030
   main: false
-  press: TheBell
+  press: Biospector
+- title: 딥바이오, AI로 `전립선 癌` 진단…큰손들로부터 자금 유치
+  date: 2017-08-13
+  img: /images/news/news_04.jpg
+  link: http://news.mk.co.kr/newsRead.php?year=2017&no=542748
+  main: false
+  press: MK.매일경제

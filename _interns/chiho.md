@@ -1,7 +1,7 @@
 ---
 name: Chiho Shin
 position: Intern in Research Engineering
-image_path:
+image: /images/team/chiho.jpg
 email:
 bio: >
   Chiho majors in Computer Science at Handong Global University. He is

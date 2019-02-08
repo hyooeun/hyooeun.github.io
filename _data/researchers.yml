@@ -1,7 +1,7 @@
 - name: Hyeyoon Chang
   position: Medical Officer
-  image_path:
-  email:
+  image: /images/team/hyeyoon.jpg
+  email: hychang@deepbio.co.kr
   meta: researcher
   bio: >
     Before joining Deep Bio, Hyeyoon worked at the Department of Pathology,
@@ -10,9 +10,9 @@
     pathology.
 
 - name: June Oh
-  position: Reasearch Engineer
-  image_path:
-  email:
+  position: Research Engineer
+  image: /images/team/june.jpg
+  email: sjoh@deepbio.co.kr
   meta: researcher
   bio: >
     Being an engineer with a degree in English Literature, June's previous
@@ -20,9 +20,9 @@
     video and networking in embedded linux systems and frontend web.
 
 - name: Sanghun Lee
-  position: Reasearch Engineer
-  image_path:
-  email:
+  position: Research Engineer
+  image: /images/team/sanghun.jpg
+  email: shlee@deepbio.co.kr
   meta: researcher
   bio: >
     Sanghun majored in Mathematics at KAIST during his undergraduate course.
@@ -32,9 +32,9 @@
     with deep learning.
 
 - name: Changdae Lee
-  position: Reasearch Engineer
-  image_path:
-  email:
+  position: Research Engineer
+  image: /images/team/changdae.jpg
+  email: cdlee@deepbio.co.kr
   meta: researcher
   bio: >
     Changdae majored in Computer Science at Handong Global
@@ -42,35 +42,27 @@
     convolutional neural networks.
 
 - name: Hyoeun Kim
-  position: Reasearch Engineer
-  image_path:
-  email:
+  position: Research Engineer
+  image: /images/team/hyoeun.jpg
+  email: hekim@deepbio.co.kr
   meta: researcher
   bio: >
     Hyoeun majored in Computer Science at Handong Global University. She
     takes special interest in data analysis and machine learning algorithms.
 
-- name: Jaebong Jeong
-  position: Engineer
-  image_path:
-  email:
-  meta: researcher
-  bio: >
-    Jaebong is studying as an undergraduate in computer science in Kyunghee
-    University. His interest lies in deep learning analysis of medical data.
-
 - name: Joonyoung Cho
   position: Research Scientist
-  image_path:
-  email:
+  image: /images/team/jycho.jpg
+  email: jycho@deepbio.co.kr
   meta: researcher
   bio: >
     Joonyoung majored in Mathematical Science at KAIST. He is interested in
     deep learning algorithm and data analysis.
-- name: Junwoo Woo
+
+- name: Junwoo Isaac Woo
   position: Research Scientist
-  image_path:
-  email:
+  image: /images/team/jwwoo.jpg
+  email: jwwoo@deepbio.co.kr
   meta: researcher
   bio: >
     Junwoo is a recent graduate from the School of Life Science at Handong
@@ -81,9 +73,9 @@
     sustainable solutions, in order to make the world a better place to live.
 
 - name: Yechan Mun
-  position: Reasearch Scientist
-  image_path:
-  email:
+  position: Research Scientist
+  image: /images/team/ycmoon.jpg
+  email: ycmun@deepbio.co.kr
   meta: researcher
   bio: >
     Yechan is a graduate from Handong University. His major is Life Science
@@ -93,8 +85,8 @@
 
 - name: Jimin Heo
   position: Disigner
-  image_path:
-  email:
+  image: /images/team/jimin.jpg
+  email: jmheo@deepbio.co.kr
   meta: researcher
   bio: >
     Jimin majored in Visual Design at Kyunghee University. She strives to
@@ -103,17 +95,17 @@
 
 - name: Seunghwa Lee
   position: Digital Scanning Specialist
-  image_path:
-  email:
+  image: /images/team/seunghwa.jpg
+  email: seunghwalee@deepbio.co.kr
   meta: researcher
   bio: >
     Seunghwa is in charge of scanning pathology slides and maintaining data
     quality at Deep Bio.
 
-- name: Euigeo Mun
+- name: Uigeo Mun
   position: Software Engineer
-  image_path:
-  email:
+  image: /images/team/uigeo.jpg
+  email: ugmun@deepbio.co.kr
   meta: researcher
   bio: >
     Uigeo majored Computer Engineering in Handong Global University.

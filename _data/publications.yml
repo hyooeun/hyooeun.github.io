@@ -1,32 +1,38 @@
 - title: Artificial Intelligence in Pathology
   type: Review
+  link: https://doi.org/10.4132/jptm.2018.12.16
   authors: >
-    Hye Yoon Chang, Chang Kwon Jung, Junwoo Issac Woo, Sanghun Lee, Joonyoung Cho, Sun Woo Kim and Tae-Yeong Kwak
+    Hye Yoon Chang, Chang Kwon Jung, Junwoo Isaac Woo, Sanghun Lee, Joonyoung Cho, Sun Woo Kim, and Tae-Yeong Kwak,</br> Deep Bio Inc.,</br> Seoul, Korea Department of Hospital Pathology, College of Medicine, The Catholic University of Korea, Seoul, Korea
   date: 2018-12-16
   keywords: >
     Artificial intelligence; Deep Learning, Pathology; Image analysis
   abstract: >
     As in other domains, artificial intelligence is becoming increasingly important in medicine. In particular, deep learning-based pattern recognition methods can advance the field of pathology by incorporating clinical, radiologic, and genomic data to accurately diagnose diseases and predict patient prognoses. In this review, we present an overview of artificial intelligence, the brief history of artificial intelligence in the medical domain, recent advances in artificial intelligence applied to pathology, and future prospects of pathology driven by artificial intelligence.
-  journal: Journal of Pathology and Translational medicine
+  journal: Journal of Pathology and Translational Medicine
 
-- title: Artificial Intelligence in Pathology
-  type: Review
+- title: Automatic Prostate Cancer Diagnosis and Gleason Pattern Recognition Using Deep Neural Networks
+  type: Abstract
   authors: >
-    Hye Yoon Chang, Chang Kwon Jung, Junwoo Issac Woo, Sanghun Lee, Joonyoung Cho, Sun Woo Kim and Tae-Yeong Kwak
+    Kyungeun Kim, Taebum Lee, Hyeseon Hwang, Sangjun Oh, Kyuhyoung Choi, Sun Woo Kim, Yoon-La Choi </br> Kangbuk Samsung Hospital, Sungkyunkwan University School of Medicine </br> Samsung Medical Center, Sungkyunkwan University School of Medicine </br> Deep Bio Inc.
   date: 2018-12-16
   keywords: >
     Artificial intelligence; Deep Learning, Pathology; Image analysis
   abstract: >
     As in other domains, artificial intelligence is becoming increasingly important in medicine. In particular, deep learning-based pattern recognition methods can advance the field of pathology by incorporating clinical, radiologic, and genomic data to accurately diagnose diseases and predict patient prognoses. In this review, we present an overview of artificial intelligence, the brief history of artificial intelligence in the medical domain, recent advances in artificial intelligence applied to pathology, and future prospects of pathology driven by artificial intelligence.
-  journal: Journal of Pathology and Translational medicine
-
-- title: Artificial Intelligence in Pathology
-  type: Review
-  authors: >
-    Hye Yoon Chang, Chang Kwon Jung, Junwoo Issac Woo, Sanghun Lee, Joonyoung Cho, Sun Woo Kim and Tae-Yeong Kwak
-  date: 2018-12-16
-  keywords: >
-    Artificial intelligence; Deep Learning, Pathology; Image analysis
-  abstract: >
-    As in other domains, artificial intelligence is becoming increasingly important in medicine. In particular, deep learning-based pattern recognition methods can advance the field of pathology by incorporating clinical, radiologic, and genomic data to accurately diagnose diseases and predict patient prognoses. In this review, we present an overview of artificial intelligence, the brief history of artificial intelligence in the medical domain, recent advances in artificial intelligence applied to pathology, and future prospects of pathology driven by artificial intelligence.
-  journal: Journal of Pathology and Translational medicine
+  journal: United States and Canada Academy of Pathology (107th annual meeting)
+# - title: Automatic Classification on Patient-level Breast Cancer Metastases
+#   type: Review
+#   authors: >
+#     Sanghun Lee, Joonyoung Cho, Sun Woo Kim </br> Deep Bio Inc.
+#   date: 2019-02-06
+#   keywords: >
+#     Pathology; Image analysis, Breast lymph nodes, pN stage, deep neural network, deeplab v3+, hard example mining
+#   abstract: >
+#     Automatic diagnosis of breast cancer is a challenge that promises more accessible healthcare. In this paper, we describe the process of predicting slide-level cancer metastasis
+#     with machine learning techniques. First, a whole slide image
+#     is split into smaller patches which are classified in pixel-level
+#     based on Deeplab v3+. Pixel-level classifiers are trained
+#     under auto hardmining process. Next, based on pixel-level
+#     results for whole slide images, slide-level heatmaps are generated and classified by rule-based criteria for negative, itc,
+#     micro and macro. Finally patient-level pN stages are determined by each individual slide-level predictions.
+#   journal: Journal of Pathology and Translational medicine

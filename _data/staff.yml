@@ -1,7 +1,7 @@
 - name: Jieun Woo
   position: Administration</br> Assistant
-  image_path:
-  email:
+  image: /images/team/jieun.jpg
+  email: jewoo@deepbio.co.kr
   meta: staff
   bio: >
     Jieun works in business support, taking care of the general business
@@ -10,8 +10,8 @@
 
 - name: JaeHyun Cho
   position: Global Business Developer
-  image_path:
-  email:
+  image: /images/team/jamie.jpg
+  email: jhcho@deepbio.co.kr
   meta: staff
   bio: >
     Jae Hyun has recently joined Deepbio and came from a wealth of experience
@@ -22,11 +22,19 @@
 
 - name: Minah Cho
   position: Regulatory Affairs
-  image_path:
-  email:
+  image: /images/team/minah.jpg
+  email: macho@deepbio.co.kr
   meta: staff
   bio: >
     Minah received her B.S. in animal biotechnology and M.S. in
     bioinformatics from Konkuk University. She is in charge of regulatory
     affairs and communication with governmental offices. She is interested in
     biostatistics and clinical data management.
+- name: JiHye Paik
+  position: Regulatory Affairs
+  image: /images/team/jihye.jpg
+  email:
+  meta: staff
+  bio: >
+    JiHye majored in Life Science and Computer Science at Handong Global
+    University. She is interested in regulatory affairs and deep learning.

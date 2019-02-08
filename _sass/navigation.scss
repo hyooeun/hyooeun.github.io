@@ -90,8 +90,9 @@ nav {
   }
 
   a:hover {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    color: #fff;
+    // border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    // color: #fff;
+    color: $brand-color;
   }
 
   @media #{$mid-point} {
@@ -126,8 +127,9 @@ nav {
       color: #000000;
     }
     a:hover {
-      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-      color: #000000;
+      // border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      // color: #000000;
+      color: $brand-color;
     }
     a.active {
       color: $brand-color;

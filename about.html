@@ -17,10 +17,9 @@ title: Deep Bio
           <img src="{{site.baseurl}}/images/deepbioinc.jpg">
         </div>
         <p>
-          Deep Bio Inc,is dedicated to improving the reliability and decreasing the thurnaround
-          time of medical diagnosis.</br> We are currently collaborating with medical professionals in integrating
-          artificial intelligence(AI) into exsisting clinical workflows </br>to help them make better-informed decisions
-          that will lead to the best outcome for patients.</br>
+          Deep Bio Inc. is dedicated to improving the reliability and decreasing the turnaround time of medical diagnoses.</br> 
+          We are currently collaborating with medical professionals in integrating artificial intelligence (AI) into existing clinical workflows</br>
+          to help them make better-informed decisions that will lead to the best outcome for patients.</br>
           We aim to improve and optimize diagnostic processes, and make quality healthcare more accessible for patients across the globe.
         </p>
       </div>
@@ -36,6 +35,18 @@ title: Deep Bio
         {% include profile.html members=site.data.researchers %}
         {% include profile.html members=site.data.staff %}
         {% include profile.html members=site.interns %}
+        <li class="profile" style="visibility: hidden">
+            <div class="image-container text-container">
+              <img src="{{ site.baseurl}}/images/news/news-main.png" alt="profile-img"/>
+              <div class="text-container">
+                <div class="text-box">
+                <div class="name">{{mem.name}}</div>
+                <div class="position">{{mem.position}}</div>
+              </div>
+              </div>
+            </div>
+            <!-- <div class="bio">{{mem.email}}</div> -->
+          </li>
       </div>
     </ul>
   </section>
@@ -64,7 +75,7 @@ title: Deep Bio
           <p>
             <span class="tag-news">News</span>
             {% assign pages = site.data.news.size | divided_by: 3.0 | ceil %}
-            <span class="news-more--link">
+            <span class="news-page--link">
 
               {% for i in (1..pages) %}
               {% if i == 1 %}
@@ -90,7 +101,7 @@ title: Deep Bio
             {% endif %}
            {% assign page= page | plus: 1 %}
           {% endif %}
-            <div class="article">
+            <a href="{{article.link}}" target="_blank"><div class="article">
               <div class="article-img">
                 <img src="{{article.img}}" alt="news-image"/>
               </div>
@@ -99,7 +110,7 @@ title: Deep Bio
                 <div class="article-subtext date">{{ article.date }}</div>
                 <div class="article-subtext">{{ article.press }}</div>
               </div>
-            </div>
+            </div></a>
         {% endfor %}
 
         </div>

@@ -5,13 +5,18 @@
     @extend %menutitle;
     text-align: left;
   }
-  .news-more--link {
+  .news-more--link,
+  .news-page--link {
     float: right;
     cursor: pointer;
     font-size: 13px;
+    letter-spacing: 2px;
     a.active {
       font-weight: bold;
     }
+  }
+  .news-more--link {
+    letter-spacing: 1px;
   }
   .articles {
     display: none;
@@ -32,6 +37,7 @@
           font-weight: $medium;
           color: $black-color;
           margin-bottom: 3px;
+          font-family: $sans-kr;
         }
         .article-subtext {
           font-style: italic;
@@ -45,6 +51,7 @@
       }
       .article-img {
         text-align: center;
+        filter: brightness(50%);
       }
       @media #{$desktop} {
         -webkit-flex: 1;

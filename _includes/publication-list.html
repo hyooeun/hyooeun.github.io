@@ -12,6 +12,7 @@
     {% endif %}
   {% assign page= page | plus: 1 %}
   {% endif %}
+
   <div class="text-container publication">
     <div class="abstract">
       <div class="text-container">
@@ -21,6 +22,7 @@
         <p>{{ publication.keywords}}</p>
       </div>
     </div>
+    <a href="{{publication.link}}" target="_blank">
       <div class="publication-type">{{publication.type}}</div>
       <div class="publication-container">
         <div class="publication-info column">
@@ -30,8 +32,8 @@
             <div class="publication-subtext date">{{publication.date | date: "%B %-d, %Y" }}</div>
           </div>
         </div>
-
         <div class="publication-authors column">Authors:</br>{{publication.authors}}</div>
     </div>
+    </a>
   </div>
 {% endfor %}

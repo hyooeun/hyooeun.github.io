@@ -1,7 +1,7 @@
 {% for mem in include.members %}
 <li class="profile">
   <div class="image-container text-container">
-    <img src="{{ site.baseurl}}/images/news/news-main.png" alt="profile-img"/>
+    <img src="{{ site.baseurl}}{{mem.image}}" alt="profile-img"/>
     <div class="text-container">
       <div class="text-box">
       <div class="name">{{mem.name}}</div>
@@ -9,6 +9,6 @@
     </div>
     </div>
   </div>
-  <div class="bio">{{mem.bio}}</div>
+  <div class="bio">{{mem.email}}</div>
 </li>
 {% endfor %}

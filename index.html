@@ -60,7 +60,8 @@ title: Deep Bio
         <div class="articles text-container show">
           {% for article in site.data.news %}
             {% if article.main %}
-              <div class="article">
+              <a href='{{article.link}}' target="_blank">
+                <div class="article" >
                 <div class="article-img">
                   <img src="{{article.img}}" alt="news-image"/>
                 </div>
@@ -72,6 +73,7 @@ title: Deep Bio
                   </div>
                 </div>
               </div>
+            </a>
             {% endif %}
           {% endfor %}
       </div>

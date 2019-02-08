@@ -1,7 +1,7 @@
 ---
 name: Jaejun Lee
 position: Intern in Research Engineering
-image_path:
+image: /images/team/jaejun.jpg
 email:
 bio: >
   Jaejun majors in Aerospace Engineering and minors in Computer Science

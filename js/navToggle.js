@@ -50,7 +50,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   $(".product-slider").slick({
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 10000,
     dots: true
   });
 });
