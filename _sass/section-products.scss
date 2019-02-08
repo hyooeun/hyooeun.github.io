@@ -30,7 +30,7 @@
       min-height: 800px;
       opacity: 1;
       &.product-item-1 {
-        background-image: url("/images/product-1.png");
+        background-image: url("/images/product-1.jpg");
         .product-box {
           padding: 400px 0 0 20px;
           @media #{$product-width} {
@@ -45,7 +45,7 @@
         }
       }
       &.product-item-2 {
-        background-image: url("/images/product-2.png");
+        background-image: url("/images/product-2.jpg");
         .product-box {
           padding: 400px 0 0 20px;
           @media #{$product-width} {
@@ -61,7 +61,7 @@
         }
       }
       &.product-item-3 {
-        background-image: url("/images/product-3.png");
+        background-image: url("/images/product-3.jpg");
         .product-box {
           padding: 300px 0 0 20px;
           @media #{$product-width} {

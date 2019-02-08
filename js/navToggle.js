@@ -30,12 +30,6 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   // new in index and about page
-  // Internet Explorer 6-11
-  var isIE = /*@cc_on!@*/ false || !!document.documentMode;
-
-  // Edge 20+
-  var isEdge = !isIE && !!window.StyleMedia;
-
   for (ele of Array.from(document.getElementsByClassName("page-link"))) {
     ele.onclick = function(event) {
       for (ele of Array.from(document.getElementsByClassName("articles"))) {
