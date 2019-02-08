@@ -19,7 +19,7 @@ email: sales@deepbio.co.kr
 description: > # this means to ignore newlines until "baseurl:"
   DeepBio - providing deep learning solutions to pathology
 baseurl: "" # the subpath of your site, e.g /blog
-url: "http://www.deepbio.co.kr/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hyooeun.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: deepbio
 
 #Build settings
