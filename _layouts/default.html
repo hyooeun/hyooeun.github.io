@@ -45,7 +45,7 @@
     <div class="main-background">
       {% assign class="nav" %} 
       {% assign main-other=""%} 
-      {% if page.url != "/" %} 
+      {% if page.url = "/" %} 
         {% assign class =class | append: " other" %} 
         {% assign main-other=" other"%} 
       {% endif %}
