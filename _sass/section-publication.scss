@@ -57,6 +57,9 @@
         @extend %flexbox;
         @include flex-flow(wrap);
         width: 70%;
+        @media #{$mobile} {
+          width: 100%;
+        }
       }
       .publication-info {
         .publication-title {
