@@ -43,8 +43,12 @@
   </head>
   <body>
     <div class="main-background">
-      {% assign class="nav" %} {% assign main-other=""%} {% if page.url != "/" %} {% assign class =
-      class | append: " other" %} {% assign main-other=" other"%} {% endif %}
+      {% assign class="nav" %} 
+      {% assign main-other=""%} 
+      {% if page.url != "/" %} 
+        {% assign class =class | append: " other" %} 
+        {% assign main-other=" other"%} 
+      {% endif %}
       <div class="main-image{{ main - other }}">
         <header class="{{ class }}">
           <div class="container header-container">
