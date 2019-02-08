@@ -16,11 +16,13 @@
     width: 100%;
     display: inline-flex;
     max-height: 500px;
+    max-height: 500px;
     background-color: #f7f7f7;
     // position: absolute;
     opacity: 1;
     .pannel-container {
       display: inline-flex;
+      min-height: 500px;
       width: 100%;
     }
     .slide-wrapper {
