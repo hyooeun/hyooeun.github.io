@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+
+<div class="content">
+	<section class="page">
+        {% if page %}
+            <div class="event-post container">
+                <div class='event-label'> Events</div>
+                <div class='event-title'>{{ page.title }}</div>
+                <div class='event-post-content'>
+                        
+                    <div class='event-date'>
+                        {{page.period}} <br/>
+                        {{page.place}}
+                    </div>
+                
+                    <div class='event-detail'>
+                        {{page.description}}
+                    </div>
+
+                    <div class='event-img'>
+                        <img src={{page.img}} alt="">
+                    </div>
+
+                    
+
+                    <div hidden id='start-date'>{{page.start}}</div>
+                </div>
+                <div class='event-calendar' id='calendar'></div>
+            </div>
+        {% endif %} 
+        
+    </section>
+
+    {% include event-modal.html %}
+
+</div>

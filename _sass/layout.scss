@@ -14,9 +14,20 @@
   max-width: 1000px;
 }
 .company-name {
+  height: 64.44px;
   img {
     width: 170px;
-    height: auto;
+    height: 63.45px;
+  }
+  .logo {
+    width: 170px;
+    height: 63.45px;
+    content: url("/images/logo-white.png");
+  }
+  .logo::before {
+    width: 170px;
+    height: 63.45px;
+    content: url("/images/logo-white.png");
   }
 }
 

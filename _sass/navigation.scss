@@ -119,8 +119,32 @@ nav {
   position: fixed;
   background: #fff;
   z-index: 3;
-  .logo {
+  -moz-box-shadow: 1px 0.5px 2px 2px #ccc;
+  -webkit-box-shadow: 1px 0.5px 2px 2px #ccc;
+  box-shadow: 1px 0.5px 2px 2px #ccc;
+  // .logo {
+  //   content: url("/images/logo-color.png");
+  // }
+  .logo,
+  .logo::after {
+    width: 170px;
+    height: 63.45px;
     content: url("/images/logo-color.png");
+  }
+  .logo-link {
+    width: 170px;
+    height: 63.45px;
+    content: url("/images/logo-color.png");
+  }
+  .logo-link::after {
+    content: url("/images/logo-color.png");
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      /* IE10+ CSS styles go here */
+      position: absolute;
+      transform: scale(0.25);
+      left: -290px;
+      top: -120px;
+    }
   }
   nav {
     a {

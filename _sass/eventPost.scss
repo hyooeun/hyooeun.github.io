@@ -1,0 +1,56 @@
+.event-post{
+
+    .event-label{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: $semibold;
+        color: 'black';
+        letter-spacing: 1pt;
+        padding-bottom: 40px;
+        padding-top:100px;
+    }
+    .event-title{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: $bold;
+        font-size: 50px;
+        line-height: 52pt;
+    }
+    .event-post-content{
+        margin-left:177.5px;
+        padding : 30px;
+
+        .event-date {
+            font-family: 'Noto Serif', serif;
+            font-style: italic;
+            font-weight: normal;
+            color : #999999;
+            font-size: 15pt;
+            line-height: 26pt;
+            margin-bottom: 30px;
+        }
+
+        .event-detail {
+            font-family: 'Noto Serif KR', serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15pt;
+            line-height: 26pt;
+            margin-bottom: 100px;
+        }
+
+        .event-img {
+            width : 60%;
+            margin-bottom: 100px;
+            img {
+                width: 100%;
+            }
+        }
+
+        .event-calendar {
+            border-color: gray;
+            border-style: solid;
+            height: 530px;
+        }  
+    }
+    padding-bottom: 100px;
+}
+

@@ -14,7 +14,7 @@ $(window).bind("scroll", function() {
 $(document).ready(function() {
   $(".slide-wrapper").slick({
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 20000,
     dots: true,
     appendDots: $("#icon")
   });
@@ -37,31 +37,6 @@ function removeActiveFunction(ele) {
 
 $(document).ready(function() {
   // new in index and about page
-  // for (ele of Array.from(document.getElementsByClassName("page-link"))) {
-  //   ele.onclick = function(event) {
-  //     for (ele of Array.from(document.getElementsByClassName("articles"))) {
-  //       ele.classList.remove("show");
-  //     }
-  //     for (ele of Array.from(document.getElementsByClassName("page-link"))) {
-  //       ele.classList.remove("active");
-  //     }
-  //     document.getElementById("article-" + event.target.id.trim()).classList.add("show");
-  //     event.target.classList.add("active");
-  //   };
-  // }
-  // // publication in what we do page
-  // for (ele of Array.from(document.getElementsByClassName("pub-page-link"))) {
-  //   ele.onclick = function(event) {
-  //     for (ele of Array.from(document.getElementsByClassName("publications-page"))) {
-  //       ele.classList.remove("show");
-  //     }
-  //     for (ele of Array.from(document.getElementsByClassName("pub-page-link"))) {
-  //       ele.classList.remove("active");
-  //     }
-  //     document.getElementById("publication-" + event.target.id.trim()).classList.add("show");
-  //     event.target.classList.add("active");
-  //   };
-  // }
   Array.from(document.getElementsByClassName("page-link")).forEach(function(ele) {
     ele.onclick = function(event) {
       Array.from(document.getElementsByClassName("articles")).forEach(removeShowFunction);

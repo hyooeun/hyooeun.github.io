@@ -6,6 +6,7 @@
       position: relative;
       @media #{$front-width} {
         margin: 10px;
+        padding: 0;
       }
     }
     .pagination {
