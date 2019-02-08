@@ -30,12 +30,18 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   // new in index and about page
-  for (ele of [...document.getElementsByClassName("page-link")]) {
+  // Internet Explorer 6-11
+  var isIE = /*@cc_on!@*/ false || !!document.documentMode;
+
+  // Edge 20+
+  var isEdge = !isIE && !!window.StyleMedia;
+
+  for (ele of Array.from(document.getElementsByClassName("page-link"))) {
     ele.onclick = function(event) {
-      for (ele of [...document.getElementsByClassName("articles")]) {
+      for (ele of Array.from(document.getElementsByClassName("articles"))) {
         ele.classList.remove("show");
       }
-      for (ele of [...document.getElementsByClassName("page-link")]) {
+      for (ele of Array.from(document.getElementsByClassName("page-link"))) {
         ele.classList.remove("active");
       }
       document.getElementById("article-" + event.target.id.trim()).classList.add("show");
@@ -43,12 +49,12 @@ $(document).ready(function() {
     };
   }
   // publication in what we do page
-  for (ele of [...document.getElementsByClassName("pub-page-link")]) {
+  for (ele of Array.from(document.getElementsByClassName("pub-page-link"))) {
     ele.onclick = function(event) {
-      for (ele of [...document.getElementsByClassName("publications-page")]) {
+      for (ele of Array.from(document.getElementsByClassName("publications-page"))) {
         ele.classList.remove("show");
       }
-      for (ele of [...document.getElementsByClassName("pub-page-link")]) {
+      for (ele of Array.from(document.getElementsByClassName("pub-page-link"))) {
         ele.classList.remove("active");
       }
       document.getElementById("publication-" + event.target.id.trim()).classList.add("show");
