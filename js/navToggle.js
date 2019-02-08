@@ -28,31 +28,55 @@ $(document).ready(function() {
   });
 });
 
+function removeShowFunction(ele) {
+  ele.classList.remove("show");
+}
+function removeActiveFunction(ele) {
+  ele.classList.remove("active");
+}
+
 $(document).ready(function() {
   // new in index and about page
-  for (ele of Array.from(document.getElementsByClassName("page-link"))) {
+  // for (ele of Array.from(document.getElementsByClassName("page-link"))) {
+  //   ele.onclick = function(event) {
+  //     for (ele of Array.from(document.getElementsByClassName("articles"))) {
+  //       ele.classList.remove("show");
+  //     }
+  //     for (ele of Array.from(document.getElementsByClassName("page-link"))) {
+  //       ele.classList.remove("active");
+  //     }
+  //     document.getElementById("article-" + event.target.id.trim()).classList.add("show");
+  //     event.target.classList.add("active");
+  //   };
+  // }
+  // // publication in what we do page
+  // for (ele of Array.from(document.getElementsByClassName("pub-page-link"))) {
+  //   ele.onclick = function(event) {
+  //     for (ele of Array.from(document.getElementsByClassName("publications-page"))) {
+  //       ele.classList.remove("show");
+  //     }
+  //     for (ele of Array.from(document.getElementsByClassName("pub-page-link"))) {
+  //       ele.classList.remove("active");
+  //     }
+  //     document.getElementById("publication-" + event.target.id.trim()).classList.add("show");
+  //     event.target.classList.add("active");
+  //   };
+  // }
+  Array.from(document.getElementsByClassName("page-link")).forEach(function(ele) {
     ele.onclick = function(event) {
-      for (ele of Array.from(document.getElementsByClassName("articles"))) {
-        ele.classList.remove("show");
-      }
-      for (ele of Array.from(document.getElementsByClassName("page-link"))) {
-        ele.classList.remove("active");
-      }
+      Array.from(document.getElementsByClassName("articles")).forEach(removeShowFunction);
+      Array.from(document.getElementsByClassName("page-link")).forEach(removeActiveFunction);
       document.getElementById("article-" + event.target.id.trim()).classList.add("show");
       event.target.classList.add("active");
     };
-  }
-  // publication in what we do page
-  for (ele of Array.from(document.getElementsByClassName("pub-page-link"))) {
+  });
+
+  Array.from(document.getElementsByClassName("pub-page-link")).forEach(function(ele) {
     ele.onclick = function(event) {
-      for (ele of Array.from(document.getElementsByClassName("publications-page"))) {
-        ele.classList.remove("show");
-      }
-      for (ele of Array.from(document.getElementsByClassName("pub-page-link"))) {
-        ele.classList.remove("active");
-      }
+      Array.from(document.getElementsByClassName("publications-page")).forEach(removeShowFunction);
+      Array.from(document.getElementsByClassName("pub-page-link")).forEach(removeActiveFunction);
       document.getElementById("publication-" + event.target.id.trim()).classList.add("show");
       event.target.classList.add("active");
     };
-  }
+  });
 });
