@@ -11,6 +11,22 @@ $(window).bind("scroll", function() {
     $(".nav").removeClass("fixed");
   }
 });
+$(document).ready(function() {
+  $(".slide-wrapper").slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true,
+    appendDots: $("#icon")
+  });
+});
+
+$(document).ready(function() {
+  $(".product-slider").slick({
+    autoplay: true,
+    autoplaySpeed: 10000,
+    dots: true
+  });
+});
 // new in index and about page
 for (ele of [...document.getElementsByClassName("page-link")]) {
   ele.onclick = function(event) {
@@ -37,20 +53,3 @@ for (ele of [...document.getElementsByClassName("pub-page-link")]) {
     event.target.classList.add("active");
   };
 }
-
-$(document).ready(function() {
-  $(".slide-wrapper").slick({
-    autoplay: true,
-    autoplaySpeed: 2000,
-    dots: true,
-    appendDots: $("#icon")
-  });
-});
-
-$(document).ready(function() {
-  $(".product-slider").slick({
-    autoplay: true,
-    autoplaySpeed: 10000,
-    dots: true
-  });
-});
