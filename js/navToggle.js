@@ -27,29 +27,32 @@ $(document).ready(function() {
     dots: true
   });
 });
-// new in index and about page
-for (ele of [...document.getElementsByClassName("page-link")]) {
-  ele.onclick = function(event) {
-    for (ele of [...document.getElementsByClassName("articles")]) {
-      ele.classList.remove("show");
-    }
-    for (ele of [...document.getElementsByClassName("page-link")]) {
-      ele.classList.remove("active");
-    }
-    document.getElementById("article-" + event.target.id.trim()).classList.add("show");
-    event.target.classList.add("active");
-  };
-}
-// publication in what we do page
-for (ele of [...document.getElementsByClassName("pub-page-link")]) {
-  ele.onclick = function(event) {
-    for (ele of [...document.getElementsByClassName("publications-page")]) {
-      ele.classList.remove("show");
-    }
-    for (ele of [...document.getElementsByClassName("pub-page-link")]) {
-      ele.classList.remove("active");
-    }
-    document.getElementById("publication-" + event.target.id.trim()).classList.add("show");
-    event.target.classList.add("active");
-  };
-}
+
+$(document).ready(function() {
+  // new in index and about page
+  for (ele of [...document.getElementsByClassName("page-link")]) {
+    ele.onclick = function(event) {
+      for (ele of [...document.getElementsByClassName("articles")]) {
+        ele.classList.remove("show");
+      }
+      for (ele of [...document.getElementsByClassName("page-link")]) {
+        ele.classList.remove("active");
+      }
+      document.getElementById("article-" + event.target.id.trim()).classList.add("show");
+      event.target.classList.add("active");
+    };
+  }
+  // publication in what we do page
+  for (ele of [...document.getElementsByClassName("pub-page-link")]) {
+    ele.onclick = function(event) {
+      for (ele of [...document.getElementsByClassName("publications-page")]) {
+        ele.classList.remove("show");
+      }
+      for (ele of [...document.getElementsByClassName("pub-page-link")]) {
+        ele.classList.remove("active");
+      }
+      document.getElementById("publication-" + event.target.id.trim()).classList.add("show");
+      event.target.classList.add("active");
+    };
+  }
+});
