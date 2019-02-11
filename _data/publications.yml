@@ -12,9 +12,10 @@
 
 - title: Automatic Prostate Cancer Diagnosis and Gleason Pattern Recognition Using Deep Neural Networks
   type: Abstract
+  link: https://www.uscap.org/
   authors: >
     Kyungeun Kim, Taebum Lee, Hyeseon Hwang, Sangjun Oh, Kyuhyoung Choi, Sun Woo Kim, Yoon-La Choi </br> Kangbuk Samsung Hospital, Sungkyunkwan University School of Medicine </br> Samsung Medical Center, Sungkyunkwan University School of Medicine </br> Deep Bio Inc.
-  date: 2018-12-16
+  date:
   keywords: >
     Artificial intelligence; Deep Learning, Pathology; Image analysis
   abstract: >

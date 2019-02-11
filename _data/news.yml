@@ -1,8 +1,8 @@
-- title: Deep Bio Inc. ranks 1st in the CAMELYON17 Grand Challenge from post submitting in early February 2019
-  date: 2019-02-06
-  img: /images/news/news_ca.jpg
-  link: https://camelyon17.grand-challenge.org/evaluation/results/
-  main: true
+# - title: Deep Bio Inc. ranks 1st in the CAMELYON17 Grand Challenge from post submitting in early February 2019
+#   date: 2019-02-06
+#   img: /images/news/news_ca.jpg
+#   link: https://camelyon17.grand-challenge.org/evaluation/results/
+#   main: true
 
 - title: 딥바이오 AI 전립선암 진단기긱 공개..."연내 임상 시험 신청"
   date: 2018-03-02
@@ -20,7 +20,7 @@
   date: 2017-09-18
   img: /images/news/news_03.jpg
   link: http://www.biospectator.com/view/news_view.php?varAtcId=4030
-  main: false
+  main: true
   press: Biospector
 - title: 딥바이오, AI로 `전립선 癌` 진단…큰손들로부터 자금 유치
   date: 2017-08-13

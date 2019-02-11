@@ -1,8 +1,10 @@
 {% for post in include.posts %}
 	<li class="blog-post">
-		<div class="image-container">
-			<img src="{{site.baseurl}}{{post.listImage}}" alt="event-img"/>
-		</div>
+		<a href="{{site.url}}/{{post.url}}">
+			<div class="image-container">
+				<img src="{{site.baseurl}}{{post.listImage}}" alt="event-img"/>
+			</div>
+		</a>
 		<div class="text-container">
 				<div class="exhibition">Exhibition</div>
 				<h2><a href="{{site.url}}/{{post.url}}">{{ post.title }}</a></h2>
@@ -11,7 +13,7 @@
 					<div class="post-place">{{ post.place }}</div>
 				</div>
 				<div class="post-detail">
-					{{post.description}}
+					{{post.description | truncatewords: 28 }}
 				</div>
 		</div>
 	</li>

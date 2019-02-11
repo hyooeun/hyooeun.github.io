@@ -14,3 +14,6 @@ main: true
 description: Come to our poster presentation at the USCAP meeting!</br>
   Abstract Title &#58 Automated Gleason Scoring of Prostate Needle Biopsy Images Using Deep Neural Networks and Its Comparison with Diagnoses of Pathologists</br>Poster Board No.124
 ---
+
+Come to our poster presentation at the USCAP meeting!</br>
+Abstract Title &#58 Automated Gleason Scoring of Prostate Needle Biopsy Images Using Deep Neural Networks and Its Comparison with Diagnoses of Pathologists</br>Poster Board No.124

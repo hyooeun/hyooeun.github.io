@@ -22,6 +22,9 @@
     }
   }
   .publication {
+    a:hover {
+      text-decoration: none;
+    }
     .abstract {
       width: 100%;
       border: 1px solid #d8d8d8;

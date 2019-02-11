@@ -30,7 +30,7 @@
         display: inline-flex;
       }
       margin-bottom: 100px;
-      .image-container {
+      a {
         @media #{$mid-point} {
           width: 50%;
         }

@@ -14,7 +14,9 @@ $(window).bind("scroll", function() {
 $(document).ready(function() {
   $(".slide-wrapper").slick({
     autoplay: true,
-    autoplaySpeed: 20000,
+    autoplaySpeed: 2500,
+    infinite: true,
+    slidesToShow: 1,
     dots: true,
     appendDots: $("#icon")
   });
@@ -23,7 +25,9 @@ $(document).ready(function() {
 $(document).ready(function() {
   $(".product-slider").slick({
     autoplay: true,
-    autoplaySpeed: 10000,
+    autoplaySpeed: 5000,
+    infinite: true,
+    slidesToShow: 1,
     dots: true
   });
 });
