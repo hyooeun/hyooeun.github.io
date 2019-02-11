@@ -38,7 +38,7 @@ $(function() {
       googleCalendarApiKey: "AIzaSyC4TuS4phNInQWAsVkw-eageMKDH3EDodw",
       eventSources: [
         {
-          googleCalendarId: "deep.bio_glopsq8l37k1glfvh34l6mp8us@group.calendar.google.com"
+          googleCalendarId: "deep.bio_9qjr7a6khkafo76ig5o056csgo@group.calendar.google.com"
         }
       ]
     });
