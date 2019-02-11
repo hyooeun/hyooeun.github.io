@@ -38,7 +38,8 @@
             padding: 160px 50px 0 50px;
           }
           @media #{$mobile} {
-            min-height: 810px;
+            min-height: 700px;
+            max-height: 700px;
           }
           .item-title {
             color: #ffffff;
@@ -53,7 +54,8 @@
             padding: 160px 50px 0 50px;
           }
           @media #{$mobile} {
-            min-height: 810px;
+            min-height: 700px;
+            max-height: 700px;
           }
           .item-title {
             padding-bottom: 15px;
@@ -69,7 +71,7 @@
             padding: 50px 50px 0 50px;
           }
           @media #{$mobile} {
-            min-height: 810px;
+            min-height: 820px;
           }
           .item-title {
             padding-bottom: 15px;
