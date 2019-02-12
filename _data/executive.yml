@@ -1,5 +1,5 @@
 - name: Sunwoo Kim
-  position: CEO
+  position: CEO, Founder
   image: "/images/team/sunwoo.jpg"
   email: swkim@deepbio.co.kr
   bio: >
@@ -16,9 +16,13 @@
   email: tykwak@deepbio.co.kr
   bio: >
     Taeyoung is a Solution Architect interested in AI, Big Data & Concurrent systems.
-- name: Saebom Lee
-  position: Board Member
-  image: "/images/team/saebom.jpg"
-  email:
+- name: Hyeyoon Chang
+  position: Medical Officer
+  image: /images/team/hyeyoon.jpg
+  email: hychang@deepbio.co.kr
+  meta: researcher
   bio: >
-    Saebom is a board member at Deep Bio.
+    Before joining Deep Bio, Hyeyoon worked at the Department of Pathology,
+    Korea University Guro Hospital for 10 years. She is a graduate from
+    College of Medicine, Korea University, and has a M.D. and Ph.D. in
+    pathology.

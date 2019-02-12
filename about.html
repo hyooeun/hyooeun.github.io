@@ -30,12 +30,10 @@ title: Deep Bio
       <div class="text-container">
           <div class="title">Team Deep Bio</div>
       </div>
-      <ul class="team">
+        <ul class="team">
         {% include profile.html members=site.data.executive %}
-        {% include profile.html members=site.data.researchers %}
-        {% include profile.html members=site.data.staff %}
-        {% include profile.html members=site.interns %}
-        <li class="profile" style="visibility: hidden">
+        {% include profile.html members=site.data.border %}
+          <li class="profile" style="visibility: hidden">
             <div class="image-container text-container">
               <img src="{{ site.baseurl}}/images/news/news-main.png" alt="profile-img"/>
               <div class="text-container">
@@ -47,8 +45,17 @@ title: Deep Bio
             </div>
             <!-- <div class="bio">{{mem.email}}</div> -->
           </li>
+        </ul>
+        <ul class="team">
+        {% include profile.html members=site.data.researchers %}
+        </ul>
+        <ul class="team">
+        {% include profile.html members=site.data.staff %}
+        </ul>
+        <ul class="team">
+        {% include profile.html members=site.interns %}       
+        </ul>
       </div>
-    </ul>
   </section>
   <section class="slider-deepbio" id="news-about">
     <div class="conainer">
